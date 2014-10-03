@@ -1,0 +1,24 @@
+/*search box outline color*/
+.input.highlighted textarea,.input.highlighted input[type="email"],.input.highlighted input[type="number"],.input.highlighted input[type="password"],.input.highlighted input[type="search"],.input.highlighted input[type="tel"],.input.highlighted input[type="text"],.input.highlighted input[type="url"],.input.highlighted input[type="color"],.input.highlighted input[type="date"],.input.highlighted input[type="datetime"],.input.highlighted input[type="datetime-local"],.input.highlighted input[type="month"],.input.highlighted input[type="time"],.input.highlighted input[type="week"],.input-group.highlighted textarea,.input-group.highlighted input[type="email"],.input-group.highlighted input[type="number"],.input-group.highlighted input[type="password"],.input-group.highlighted input[type="search"],.input-group.highlighted input[type="tel"],.input-group.highlighted input[type="text"],.input-group.highlighted input[type="url"],.input-group.highlighted input[type="color"],.input-group.highlighted input[type="date"],.input-group.highlighted input[type="datetime"],.input-group.highlighted input[type="datetime-local"],.input-group.highlighted input[type="month"],.input-group.highlighted input[type="time"],.input-group.highlighted input[type="week"] {
+    border-color: orange;
+}
+
+/*search box highlight color*/
+.input.highlighted,.input-group.highlighted {
+    background-color: orange;
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;
+}
+
+/*search button color*/
+.button.secondary {
+  background-color: red;
+  border: 1px solid green;
+  color: #ffffff;
+}
+
+/*item title color*/
+.itemTitle a {
+  color: red;
+}

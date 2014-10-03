@@ -1108,7 +1108,7 @@ button:active:not(:disabled),input[type="submit"]:active:not(:disabled),.button:
 }
 
 .input.highlighted textarea,.input.highlighted input[type="email"],.input.highlighted input[type="number"],.input.highlighted input[type="password"],.input.highlighted input[type="search"],.input.highlighted input[type="tel"],.input.highlighted input[type="text"],.input.highlighted input[type="url"],.input.highlighted input[type="color"],.input.highlighted input[type="date"],.input.highlighted input[type="datetime"],.input.highlighted input[type="datetime-local"],.input.highlighted input[type="month"],.input.highlighted input[type="time"],.input.highlighted input[type="week"],.input-group.highlighted textarea,.input-group.highlighted input[type="email"],.input-group.highlighted input[type="number"],.input-group.highlighted input[type="password"],.input-group.highlighted input[type="search"],.input-group.highlighted input[type="tel"],.input-group.highlighted input[type="text"],.input-group.highlighted input[type="url"],.input-group.highlighted input[type="color"],.input-group.highlighted input[type="date"],.input-group.highlighted input[type="datetime"],.input-group.highlighted input[type="datetime-local"],.input-group.highlighted input[type="month"],.input-group.highlighted input[type="time"],.input-group.highlighted input[type="week"] {
-    border-color: #f47c30;
+    border-color: blue;
 }
 
 .input.highlighted .button,.input-group.highlighted .button {
@@ -1148,7 +1148,7 @@ textarea,textarea.medium,input[type="email"],input[type="email"].medium,input[ty
 
 textarea.large,input[type="email"].large,input[type="number"].large,input[type="password"].large,input[type="search"].large,input[type="tel"].large,input[type="text"].large,input[type="url"].large,input[type="color"].large,input[type="date"].large,input[type="datetime"].large,input[type="datetime-local"].large,input[type="month"].large,input[type="time"].large,input[type="week"].large {
     font-size: 18.75px;
-    padding: 11.25px 0.809em;
+    padding: 9px 0.809em;
 }
 
 .radio-icons {
