@@ -1,0 +1,17 @@
+
+<!-- saved from url=(0096)https://dl.dropboxusercontent.com/u/51386401/GetSatMobileWidget/getsatMobile_files/retrieve.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+//<![CDATA[
+
+  waitForGSFN = function () {
+    if (window.parent.GSFN) {
+      window.parent.GSFN.Authenticatable.authCallback(null);
+    } else {
+      setTimeout(waitForGSFN,100);
+    }
+  };
+
+  waitForGSFN();
+
+//]]>
+</script></head><body></body></html>
